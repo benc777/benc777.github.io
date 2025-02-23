@@ -47,6 +47,15 @@ function updateButtonIcon(isDarkMode) {
 document.addEventListener('DOMContentLoaded', () => {
   const isDarkMode = localStorage.getItem('darkMode') === 'true';
 
+
+  document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.body.classList.add('glitch');
+      setTimeout(() => document.body.classList.remove('glitch'), 200);
+    });
+  });
+  
+
   // Apply dark mode if stored
   if (isDarkMode) {
     document.body.classList.add('dark-mode');
