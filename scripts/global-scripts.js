@@ -9,5 +9,5 @@
   function gtag(){dataLayer.push(arguments);}
   window.gtag = gtag;
   gtag('js', new Date());
-  gtag('config', G-VBBPFKB1SN');
+  gtag('config', 'G-VBBPFKB1SN');
 })();
