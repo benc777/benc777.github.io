@@ -462,3 +462,17 @@ ul{
   width: 100%;
   border-radius: 10px;
 }
+
+.company-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    padding: 1px 7px;
+    border-radius: 20px;
+    background-color: #1b1b1b;
+    border: solid #232323;
+    color: #666;
+    margin-left: 8px;
+    vertical-align: middle;
+}
