@@ -474,5 +474,6 @@ ul{
     border: solid #232323;
     color: #666;
     margin-left: 8px;
+    border-width: 1px;
     vertical-align: middle;
 }
